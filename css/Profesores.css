@@ -188,27 +188,26 @@ body{
 }
 
 #Slider .profesor{
-    height: 300px;
-    max-width: 95%;
+    height: 530px;
+    width: 60%;
     margin: 10px;
     background-color: rgb(255 255 255);
     border-radius: 10px;
-    display: none;
+}
+
+#Slider .profesor img{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px;
+    object-fit: cover;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#Slider .profesor img{
-    background-color: #101010;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    margin: 20px;
-    
-}
-
 #Slider .profesor .descripcion{
-    padding: 35px 50px;
+    padding: 15px 50px;
 
 }
 
@@ -222,13 +221,9 @@ body{
     padding: 10px 0px;
 }
 
-#Slider .profesor .descripcion span{
-
-}
-
 #Slider .botones{
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
 }
 
 #Slider .botones .dot {
